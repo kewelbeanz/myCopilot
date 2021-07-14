@@ -3,6 +3,6 @@ async function myFunction(){
     let myPromise=new Promise(function(myResolve,myReject){
         myResolve(location.href,"https://logicole.health.mil");
     });
-    document.getElementById("okButton").click();
-    document.getElementById("loginButton").click();
+   document.getElementById("okButton").click()=await myPromise;
 }
+myFunction();
